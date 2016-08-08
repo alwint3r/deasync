@@ -30,7 +30,8 @@ if (!{
 		x64: true,
 		arm: true,
 		ppc64: true,
-		ppc: true
+		ppc: true,
+		mipsel: true,
 	}.hasOwnProperty(arch)) {
 	console.error('Unsupported (?) architecture: `' + arch + '`');
 	process.exit(1);
